@@ -14,7 +14,7 @@ body{
     margin-top: 60px;
 }
 
-h1{
+h1,h6{
     font-family: 'Secular One', sans-serif;
 }
 
@@ -29,7 +29,7 @@ header *{
 
 .clearfix::after{
     clear: both;
-    counter-reset: none;
+    content: '';
     display: table;
 }
 
@@ -43,8 +43,9 @@ header *{
     background-color: #0F0E17;
     color: white;
     width: 90%;
-    height: 100px;
+    overflow: clip;
     box-shadow: 5px 4px 18px #888888;
+    line-height: 2em;
 }
 
 .profile img{
