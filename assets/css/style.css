@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 70%;
+}
+
+.clearfix::after{
+    clear: both;
+    counter-reset: none;
+    display: table;
+}
+
+.profile{
+    width: calc(100%/3);
+    padding: 50px;
+    background-color: aqua;
+}
+
+.profile{
+    float: left;
+}
