@@ -9,13 +9,16 @@
 }
 
 body{
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 60px;
 }
 
 h1,h6{
     font-family: 'Secular One', sans-serif;
+}
+header h1{
+    color: #E53170;
 }
 
 header{
@@ -29,7 +32,7 @@ header *{
 
 .clearfix::after{
     clear: both;
-    content: '';
+    counter-reset: none;
     display: table;
 }
 
@@ -43,7 +46,7 @@ header *{
     background-color: #0F0E17;
     color: white;
     width: 90%;
-    overflow: clip;
+    overflow: hidden;
     box-shadow: 5px 4px 18px #888888;
     line-height: 2em;
 }
@@ -52,4 +55,8 @@ header *{
     float: left;
     height: 100px;
     padding-right: 15px;
+}
+
+.profile p:last-child{
+    color: #4DCCCE;
 }
