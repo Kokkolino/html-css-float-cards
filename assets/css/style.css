@@ -48,7 +48,7 @@ header *{
     width: 90%;
     overflow: hidden;
     box-shadow: 5px 4px 18px #888888;
-    line-height: 2em;
+
 }
 
 .profile img{
@@ -64,3 +64,8 @@ header *{
 .profile p:last-child{
     color: #4DCCCE;
 }
+
+.profile *{
+    line-height: 35px;
+}
+
